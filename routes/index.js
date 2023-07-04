@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-const flag = "cfreak{this is not actual flag!}";
+const flag = "fakeflag{this is not actual flag!}";
 
 /* GET home page. */
 router.get("/", function (req, res, next) {

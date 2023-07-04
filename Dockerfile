@@ -8,5 +8,5 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app/
 RUN npm install
 
-EXPOSE 9090
+EXPOSE 9911
 CMD npm start
